@@ -8,10 +8,26 @@ nav:
     - "Getting start":
       - "Overview":
         - "Chapter-1: Introducing kubernetes": overview/chapter01.md
-      - "Core Concept": core_concept.md
-      - "Beyond The Basics": beyond_the_basics.md
+        - "Chapter-2: First step with Docker and Kubernetes": overview/chapter02.md
+      - "Core Concept":
+        - "Chapter-3: Pods": core_concept/chapter-03.md
+        - "Chapter-4: Replication and other controlles": core_concept/chapter-04.md
+        - "Chapter-5: Services": core_concept/chapter-05.md
+        - "Chapter-6: Volumes": core_concept/chapter-06.md
+        - "Chapter-7: configMaps and secrets": core_concept/chapter-07.md
+        - "Chapter-8: Accessing pod metadata and other resources from applications": core_concept/chapter-08.md
+        - "Chapter-9: Deployments": core_concept/chapter-09.md
+        - "Chapter-10: statefullsets": core_concept/chapter-10.md
+      - "Beyond The Basics":
+        - "Chapter-11: Understanding Kubernetes internals": beyond_the_basics/chapter-11.md
+        - "Chapter-12: Securing Kubernetes API server": beyond_the_basics/chapter-12.md
+        - "Chapter-13: Securing cluster nodes and network": beyond_the_basics/chapter-13.md
+        - "Chapter-14: Managing pods computational resources": beyond_the_basics/chapter-14.md
+        - "Chapter-15: Automatic scaling of pods and cluster": beyond_the_basics/chapter-15.md
+        - "Chapter-16: Advanced scheduling": beyond_the_basics/chapter-16.md
+        - "Chapter-17: Best practices for developing APPs": beyond_the_basics/chapter-17.md
+        - "Chapter-18: Extending Kubernetes": beyond_the_basics/chapter-18.md
     - "references": references.md
-  - aws: aws.md
 theme:
   name: material
   features:

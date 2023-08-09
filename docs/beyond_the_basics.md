@@ -1,8 +1,0 @@
-### [Chapter 11: Understanding Kubernetes internals](beyond_the_basics/chapter-11.md "Understanding Kubernetes internals")  
-### [Chapter 12: Securing Kubernetes API server](beyond_the_basics/chapter-12.md "Securing Kubernetes API server")  
-### [Chapter 13: Securing cluster nodes and network](beyond_the_basics/chapter-13.md "Securing cluster nodes and network")  
-### [Chapter 14: Managing pods computational resources](beyond_the_basics/chapter-14.md "Managing pods computational resources")  
-### [Chapter 15: Automatic scaling of pods and cluster](beyond_the_basics/chapter-15.md "Automatic scaling of pods and cluster")  
-### [Chapter 16: Advanced scheduling](beyond_the_basics/chapter-16.md "Advanced scheduling")  
-### [Chapter 17: Best practices for developing APPs](beyond_the_basics/chapter-17.md "Best practices for developing APPs")  
-### [Chapter 18: Extending Kubernetes](beyond_the_basics/chapter-18.md "Extending Kubernetes")  

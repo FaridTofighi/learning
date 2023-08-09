@@ -1,8 +1,0 @@
-### [Chapter 3: Pods](core_concept/chapter-03.md "Pods")  
-### [Chapter 4: Replication and other controlles](core_concept/chapter-04.md "Replication and other controlles")  
-### [Chapter 5: Services](core_concept/chapter-05.md "Services")  
-### [Chapter 6: Volumes](core_concept/chapter-06.md "Volumes")  
-### [Chapter 7: configMaps and secrets](core_concept/chapter-07.md "configMaps and secrets")  
-### [Chapter 8: Accessing pod metadata and other resources from applications](core_concept/chapter-08.md "accessing pod metadata and other resources from applications")  
-### [Chapter 9: Deployments](core_concept/chapter-09.md "Deployments")  
-### [Chapter 10: statefullsets](core_concept/chapter-10.md "statefullsets") 
