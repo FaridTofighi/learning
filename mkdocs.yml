@@ -1,0 +1,30 @@
+site_name: Documents
+site_description: "Our learning course"
+site_author: Farid
+use_directory_urls: true
+copyright: Farid
+nav:
+  - kubernetes:
+    - "Getting start":
+      - "Overview":
+        - "Chapter-1: Introducing kubernetes": overview/chapter01.md
+      - "Core Concept": core_concept.md
+      - "Beyond The Basics": beyond_the_basics.md
+    - "references": references.md
+  - aws: aws.md
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+plugins:
+  - glightbox
