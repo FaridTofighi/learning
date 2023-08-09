@@ -4,8 +4,8 @@ site_author: Farid
 use_directory_urls: true
 copyright: Farid
 nav:
+  - Courses: index.md
   - kubernetes:
-    - "Introduction": index.md
     - "Getting start":
       - "Overview":
         - "Chapter-1: Introducing kubernetes": overview/chapter01.md
