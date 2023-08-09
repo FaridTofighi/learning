@@ -5,6 +5,7 @@ use_directory_urls: true
 copyright: Farid
 nav:
   - kubernetes:
+    - "Introduction": index.md
     - "Getting start":
       - "Overview":
         - "Chapter-1: Introducing kubernetes": overview/chapter01.md
@@ -27,7 +28,6 @@ nav:
         - "Chapter-16: Advanced scheduling": beyond_the_basics/chapter-16.md
         - "Chapter-17: Best practices for developing APPs": beyond_the_basics/chapter-17.md
         - "Chapter-18: Extending Kubernetes": beyond_the_basics/chapter-18.md
-    - "references": references.md
 theme:
   name: material
   features:
