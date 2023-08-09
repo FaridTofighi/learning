@@ -13,17 +13,21 @@
       
       
       
+        <link rel="prev" href="../chapter-06/">
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      
+        <link rel="next" href="../chapter-08/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.1.21">
     
     
       
-        <title>Chapter 02 - Documents</title>
+        <title>Chapter-7: configMaps and secrets - Documents</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.eebd395e.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
       
       
 
@@ -39,14 +43,14 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
         html.glightbox-open { overflow: initial; height: 100%; }
         .gslide-title { margin-top: 0px; user-select: text; }
         .gslide-desc { color: #666; user-select: text; }
@@ -57,7 +61,7 @@
             body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
             body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
             body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     <body dir="ltr">
@@ -83,7 +87,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Documents" class="md-header__button md-logo" aria-label="Documents" data-md-component="logo">
+    <a href="../.." title="Documents" class="md-header__button md-logo" aria-label="Documents" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -102,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Chapter 02
+              Chapter-7: configMaps and secrets
             
           </span>
         </div>
@@ -136,7 +140,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Documents" class="md-nav__button md-logo" aria-label="Documents" data-md-component="logo">
+    <a href="../.." title="Documents" class="md-nav__button md-logo" aria-label="Documents" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -153,14 +157,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
       
       
       
@@ -169,7 +175,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_1">
           <span class="md-nav__icon md-icon"></span>
           kubernetes
@@ -180,14 +186,16 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" checked>
       
       
       
@@ -196,7 +204,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_1_1">
           <span class="md-nav__icon md-icon"></span>
           Getting start
@@ -236,7 +244,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../overview/chapter01/" class="md-nav__link">
+      <a href="../../overview/chapter01/" class="md-nav__link">
         Chapter-1: Introducing kubernetes
       </a>
     </li>
@@ -250,7 +258,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../overview/chapter02/" class="md-nav__link">
+      <a href="../../overview/chapter02/" class="md-nav__link">
         Chapter-2: First step with Docker and Kubernetes
       </a>
     </li>
@@ -269,14 +277,16 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1_2" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1_2" checked>
       
       
       
@@ -285,7 +295,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_1_2_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_1_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_1_1_2">
           <span class="md-nav__icon md-icon"></span>
           Core Concept
@@ -298,7 +308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../core_concept/chapter-03/" class="md-nav__link">
+      <a href="../chapter-03/" class="md-nav__link">
         Chapter-3: Pods
       </a>
     </li>
@@ -312,7 +322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../core_concept/chapter-04/" class="md-nav__link">
+      <a href="../chapter-04/" class="md-nav__link">
         Chapter-4: Replication and other controlles
       </a>
     </li>
@@ -326,7 +336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../core_concept/chapter-05/" class="md-nav__link">
+      <a href="../chapter-05/" class="md-nav__link">
         Chapter-5: Services
       </a>
     </li>
@@ -340,7 +350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../core_concept/chapter-06/" class="md-nav__link">
+      <a href="../chapter-06/" class="md-nav__link">
         Chapter-6: Volumes
       </a>
     </li>
@@ -352,11 +362,19 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../../core_concept/chapter-07/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Chapter-7: configMaps and secrets
       </a>
+      
     </li>
   
 
@@ -368,7 +386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../core_concept/chapter-08/" class="md-nav__link">
+      <a href="../chapter-08/" class="md-nav__link">
         Chapter-8: Accessing pod metadata and other resources from applications
       </a>
     </li>
@@ -382,7 +400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../core_concept/chapter-09/" class="md-nav__link">
+      <a href="../chapter-09/" class="md-nav__link">
         Chapter-9: Deployments
       </a>
     </li>
@@ -396,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../core_concept/chapter-10/" class="md-nav__link">
+      <a href="../chapter-10/" class="md-nav__link">
         Chapter-10: statefullsets
       </a>
     </li>
@@ -417,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../beyond_the_basics/" class="md-nav__link">
+      <a href="../../beyond_the_basics/" class="md-nav__link">
         Beyond The Basics
       </a>
     </li>
@@ -438,7 +456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../references/" class="md-nav__link">
+      <a href="../../references/" class="md-nav__link">
         references
       </a>
     </li>
@@ -460,7 +478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../aws/" class="md-nav__link">
+      <a href="../../aws/" class="md-nav__link">
         aws
       </a>
     </li>
@@ -498,7 +516,7 @@
                   
 
 
-  <h1>Chapter 02</h1>
+  <h1>Chapter-7: configMaps and secrets</h1>
 
 
 
@@ -542,10 +560,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.code.select", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.select", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
